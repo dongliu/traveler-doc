@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Traveler template
-permalink: /manual/template/
+permalink: ./manual/template/
 ---
 {% include_relative audience.md %}
 {% include_relative template_files/header.md %}

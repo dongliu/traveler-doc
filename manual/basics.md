@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Traveler basics
-permalink: /manual/basics/
+permalink: ./manual/basics/
 ---
 {% include_relative audience.md %}
 {% include_relative basics_files/header.md %}

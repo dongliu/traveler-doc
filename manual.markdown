@@ -7,14 +7,14 @@ permalink: /manual/
 {% include_relative manual/audience.md %}
 {% include_relative manual/basics_files/header.md %}
 
-#### More on [basics](/manual/basics/) 
+#### More on [basics](./basics/) 
 
 {% include_relative manual/template_files/header.md %}
 
-#### More on [template](/manual/template/) 
+#### More on [template](./template/) 
 
 {% include_relative manual/traveler_files/header.md %}
 
-#### More on [traveler](/manual/traveler/) 
+#### More on [traveler](./traveler/) 
 
 {% include_relative manual/faq.md %}

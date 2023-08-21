@@ -1,0 +1,15 @@
+.progress {
+  text-align: center;
+  margin-bottom: 0;
+  position: relative;
+}
+
+.progress.active {
+  background: #ffff00;
+}
+
+.progress-value {
+  position: absolute;
+  right: 0;
+  left: 0;
+}

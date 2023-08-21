@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Starting the documentation"
+date:   2023-08-19 08:00:00 -0700
+categories: update
+---
+
+Long time, starting to update traveler documentation in a standalone project. 

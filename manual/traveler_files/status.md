@@ -5,7 +5,7 @@
 The allowed access of a traveler changes with its status. The transitions
 between statuses, and the allowed access at each status are shown in the
 following diagram, where **r** for read and **w** for write.
-<img src="/assets/img/traveler-status.png" alt="the statues of a traveler">
+<img src="{{ "/assets/img/traveler-status.png" | relative_url }}" alt="the statues of a traveler">
 
 The following table lists the status and corresponding allowed access for
 traveler data and traveler notes.

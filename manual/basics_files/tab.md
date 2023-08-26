@@ -19,7 +19,7 @@ display information.
 | 5    | bottom left  | the numbers of entries out of the total number shown in the view    |
 | 6    | bottom right | pagination controls                                                 |
 
-<img src="/assets/img/data-tables.png" alt="the areas of a data table">
+<img src="{{ "/assets/img/data-tables.png" | relative_url }}" alt="the areas of a data table">
 
 Some tables have extra tools that allow a user to copy, export, or print the
 table. The traveler application uses
@@ -29,4 +29,4 @@ the tools are not supported by browsers due to the dependency on the flash
 technology. We are in the process of updating those pages to use the latest
 version of the datatables library.
 
-<img src="/assets/img/data-table-tools.png" alt="data table tools" style="width:25%">
+<img src="{{ "/assets/img/data-table-tools.png" | relative_url }}" alt="data table tools" style="width:25%">

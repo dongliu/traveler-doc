@@ -4,7 +4,7 @@ The following diagram shows the state transition of a template and a released
 template.
 
 <figure align="center">
-<img src="/assets/img/template-life.png" alt="template life cycle">
+<img src="{{ "/assets/img/template-life.png" | relative_url }}" alt="template life cycle">
 <figcaption>
 States and life cycle of templates
 </figcaption>

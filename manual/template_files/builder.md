@@ -5,15 +5,15 @@ starting point to use the traveler application for most users.
 
 #### Template type
 
-Log in the traveler application, and navigate to the <a href="/forms/">Forms or
-Templates</a> page. Then click the <a id="new" href="/forms/new" target="_blank"
+Log in the traveler application, and navigate to the <a href="{{ "/forms/" | relative_url }}">Forms or
+Templates</a> page. Then click the <a id="new" href="{{ "/forms/new" | relative_url }}" target="_blank"
 data-toggle="tooltip" title="create new empty forms" class="btn btn-primary"><i
 class="fa fa-file-o fa-lg"></i>&nbsp;New form</a> button.
 
 A new page will load the following page.
 
 <figure align="center">
-<img src="/assets/img/template-type.png" alt="new template page" style="width:50%">
+<img src="{{ "/assets/img/template-type.png" | relative_url }}" alt="new template page" style="width:50%">
 <figcaption>
 New template
 </figcaption>

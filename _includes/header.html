@@ -17,8 +17,16 @@
         </label>
 
         <div class="trigger">
-          <a class="page-link" href="{{ "/manual/" | relative_url }}">Manual</a>
-          <a class="page-link" href="{{ "/api/" | relative_url }}">API</a>
+          <div class="btn-toolbar">
+            <div class="btn-group">
+              <button class="btn dropdown-toggle" data-toggle="dropdown">Manual <span class="caret"></span></button>
+              <ul class="dropdown-menu">
+                <li><a href="{{ "/manual/" | relative_url }}">Introduction</a></li>
+                <li><a href="{{ "/manual/basics/" | relative_url }}">Basics</a></li>
+                <li><a href="{{ "/manual/template/" | relative_url }}">Template</a></li>
+                <li><a href="{{ "/manual/traveler/" | relative_url }}">Traveler</a></li>
+              </ul>
+          </div>
           <!-- {%- for path in page_paths -%}
             {%- assign my_page = site.pages | where: "path", path | first -%}
             {%- if my_page.title -%}

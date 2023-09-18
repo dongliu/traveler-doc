@@ -10,5 +10,7 @@ permalink: ./manual/template
 {% include_relative template_files/lifecycle.md %}
 {% include_relative template_files/tab.md %}
 {% include_relative template_files/builder.md %}
+{% include_relative template_files/clone.md %}
+{% include_relative template_files/transfer.md %}
 {% include_relative template_files/version-control.md %}
 {% include_relative template_files/review.md %}

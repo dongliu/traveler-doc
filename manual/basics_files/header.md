@@ -1,4 +1,4 @@
-## Basics of the traveler application
+### Basics of the traveler application
 
 **Audience: all users**
 

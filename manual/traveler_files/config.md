@@ -14,7 +14,7 @@ options include
 
 Click the
 <a data-toggle="tooltip" title="config the traveler"><i class="fa fa-gear fa-lg"></i></a>
-icon in order to navigate to the traveler configuration page. On the
+icon on the traveler list table in order to navigate to the traveler configuration page. On the
 configuration page, click on the <button class="btn btn-primary">Edit</button>
 button to update the traveler title or description. The deadline is a date
 picker. Click the <button id="add" class="btn btn-primary">Add tags</button>

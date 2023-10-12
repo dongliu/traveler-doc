@@ -1,4 +1,4 @@
-### Tabs in the template page
+### Tabs on the template page
 
 The templates are listed in different tabs according to their status and ownership like the following. Please click the tab to see what are the content to be included in each tab.
 

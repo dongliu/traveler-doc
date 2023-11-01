@@ -7,4 +7,4 @@ layout: home
 
 The [traveler](https://github.com/dongliu/traveler) is a Web application to define work templates, create work instances from released templates, and organize the work. 
 
-## [User manual](./manual/)
+#### [User manual](./manual/)

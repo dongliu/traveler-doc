@@ -1,4 +1,4 @@
-### Draft template basics
+## Draft template
 
 **Audience: traveler users, especially process template owner**
 

@@ -1,4 +1,4 @@
-### Released template basics
+## Released template
 
 **Audience: traveler users**
 

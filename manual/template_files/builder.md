@@ -70,6 +70,21 @@ table.
 | Max | minimum allowed value for a number | useful for validation |
 | Help | appear below the input | a long hint to the user for the input |
 
+##### A note on multiple choice input in HTML
+
+The `select` element with `multiple` attribute of true was designed to implement
+a multiple choice in HTML as in
+[rfc1866](https://datatracker.ietf.org/doc/html/rfc1866#section-8.1.3). However,
+a user can face various challenges when interacting with it. On a desktop
+device, a user needs to hold a special key while using mouse to click on
+options. On a mobile device, a user needs to click on the element in order to
+reveal the options. 
+
+Many find that a set of checkbox input has a better user experience, like [this
+example on
+MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox#try_it).
+We use checkboxes to implement multiple choice in the traveler form builder.  
+
 ##### Advanced components
 
 Currently, the builder supports two advanced controls, section and rich

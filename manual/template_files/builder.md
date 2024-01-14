@@ -38,7 +38,8 @@ The template builder support 8 basic inputs types:
 | input name | usage | properties |
 | ----------- | ----------- | ----------- |
 | Checkbox | specify a boolean value, true or false | Label, User defined key, Text, Required |
-| Radio | choose one out of multiple available options | Label, User defined key, Text, Required, Radio button value |
+| Checkbox set | select any number out of multiple options | Set label, User defined key and Text for each option |
+| Radio | choose one out of multiple options | Label, User defined key, Text, Required, Radio button value |
 | Text | a single line text to record  | Label, User defined key, Placeholder, Required, Help  |
 | Figure | not a user input, a visual instruction for traveler user | Select an image, Image alternate text, Width, Figure caption |
 | Paragraph | multiple line text to record | Label, User defined key, Placeholder, Row Required, Help |
@@ -69,7 +70,22 @@ table.
 | Max | minimum allowed value for a number | useful for validation |
 | Help | appear below the input | a long hint to the user for the input |
 
-#### Advanced components
+##### A note on multiple choice input in HTML
+
+The `select` element with `multiple` attribute of true was designed to implement
+a multiple choice in HTML as in
+[rfc1866](https://datatracker.ietf.org/doc/html/rfc1866#section-8.1.3). However,
+a user can face various challenges when interacting with it. On a desktop
+device, a user needs to hold a special key while using mouse to click on
+options. On a mobile device, a user needs to click on the element in order to
+reveal the options. 
+
+Many find that a set of checkbox input has a better user experience, like [this
+example on
+MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox#try_it).
+We use checkboxes to implement multiple choice in the traveler form builder.  
+
+##### Advanced components
 
 Currently, the builder supports two advanced controls, section and rich
 instruction. The section is for easy navigation and reference of a traveler.

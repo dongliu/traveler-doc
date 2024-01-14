@@ -38,7 +38,8 @@ The template builder support 8 basic inputs types:
 | input name | usage | properties |
 | ----------- | ----------- | ----------- |
 | Checkbox | specify a boolean value, true or false | Label, User defined key, Text, Required |
-| Radio | choose one out of multiple available options | Label, User defined key, Text, Required, Radio button value |
+| Checkbox set | select any number out of multiple options | Set label, User defined key and Text for each option |
+| Radio | choose one out of multiple options | Label, User defined key, Text, Required, Radio button value |
 | Text | a single line text to record  | Label, User defined key, Placeholder, Required, Help  |
 | Figure | not a user input, a visual instruction for traveler user | Select an image, Image alternate text, Width, Figure caption |
 | Paragraph | multiple line text to record | Label, User defined key, Placeholder, Row Required, Help |
@@ -69,7 +70,7 @@ table.
 | Max | minimum allowed value for a number | useful for validation |
 | Help | appear below the input | a long hint to the user for the input |
 
-#### Advanced components
+##### Advanced components
 
 Currently, the builder supports two advanced controls, section and rich
 instruction. The section is for easy navigation and reference of a traveler.
